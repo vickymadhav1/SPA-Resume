@@ -46,6 +46,7 @@
   },
   "scripts": {
     "start": "node server.js"
+    "postinstall": "node server.js --aot -prod"
   },
   "main": "gulpfile.js"
 }
